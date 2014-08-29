@@ -1,0 +1,16 @@
+General
+   1  sudo su -
+   2  sudo apt-get update
+   3  sudo apt-get install apache2
+   4  sudo apt-get install mysql-server php5-mysql
+   5  sudo mysql_install_db
+   6  sudo mysql_secure_installation
+   7  sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
+   8  sudo nano /etc/apache2/mods-enabled/dir.conf
+   9  sudo service apache2 restart
+  10  apt-cache search php5-
+  11  apt-cache show php5-cli
+  12  sudo apt-get install php5-cli
+
+AWS
+  http://www.chrishjorth.com/blog/free-aws-ec2-ubuntu-apache-php-mysql-setup/
