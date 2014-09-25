@@ -1,4 +1,3 @@
-#-*- coding: utf-8 -*-
 import urllib
 import urllib2
 import time
@@ -59,3 +58,4 @@ goUrl('viewmore', '94.203.147.218:8080', 'http://cafeblog.search.naver.com/searc
 for p in range(11, 100, 10):
 
 	goUrl('viewmore', '94.203.147.218:8080', 'http://cafeblog.search.naver.com/search.naver?where=post&sm=tab_pge&%s&st=sim&date_option=0&date_from=&date_to=&dup_remove=1&post_blogurl=&post_blogurl_without=&srchby=all&nso=&ie=utf8&start=%d' % (data, p))
+search.naver?where=post&sm=tab_pge&%s&st=sim&date_option=0&date_from=&date_to=&dup_remove=1&post_blogurl=&post_blogurl_without=&srchby=all&nso=&ie=utf8&start=%d' % (data, p))
