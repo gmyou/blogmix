@@ -1,3 +1,8 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+import urllib2, urllib
+from bs4 import BeautifulSoup
+
 def findBlog(proxy):
     global keyword
     global blogurl
