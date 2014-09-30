@@ -10,8 +10,8 @@ print(theday)
 
 try:
     con = _mysql.connect('localhost', 'user', 'password', 'database')
-    print ("delete from naver_rank_news where cr_date='".theday."'")
-    con.query("delete from naver_rank_news where cr_date='".theday."'")
+    print ("delete from naver_rank_news where cr_date='"+theday+"'")
+    con.query("delete from naver_rank_news where cr_date='"+theday+"'")
     result = con.use_result()
 
     print "MySQL version: %s" % \
