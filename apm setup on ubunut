@@ -12,5 +12,7 @@ General
   11  apt-cache show php5-cli
   12  sudo apt-get install php5-cli
 
+apache : /etc/apache2
+
 AWS
   http://www.chrishjorth.com/blog/free-aws-ec2-ubuntu-apache-php-mysql-setup/
