@@ -4,7 +4,7 @@ General
    sudo apt-get install apache2
    sudo apt-get install mysql-server php5-mysql
    sudo mysql_install_db
-   <del>sudo mysql_secure_installation</del>
+   sudo mysql_secure_installation
    sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
    sudo nano /etc/apache2/mods-enabled/dir.conf
    sudo service apache2 restart
