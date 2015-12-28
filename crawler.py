@@ -20,8 +20,8 @@ f.close()
 soup = BeautifulSoup(page)
 
 # n = soup.findAll('li', attrs={'class': 'new'})
-
-u = soup.findAll('li', attrs={'class': 'up'})
+# u = soup.findAll('li', attrs={'class': 'up'})
+u = soup.findAll('li', attrs={'class': ['up', 'new']})
 
 if (len(u)>0):
 	for i in range(len(u)):
