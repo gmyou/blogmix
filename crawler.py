@@ -19,8 +19,7 @@ f.close()
 soup = BeautifulSoup(page)
 
 data = soup.find('ol', attrs={'id': 'realrank'}).findAll('a')
-for tag in data:
-    print tag
+for tag in data[:-1]:
     try:
         print str(unicode(tag['title']))
     except KeyError:
