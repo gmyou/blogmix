@@ -1,16 +1,16 @@
 General
-   sudo su -
-   apt-get update
-   apt-get install apache2
-   apt-get install mysql-server php5-mysql
-   mysql_install_db
-   mysql_secure_installation
-   apt-get install php5 libapache2-mod-php5 php5-mcrypt
-   nano /etc/apache2/mods-enabled/dir.conf
-   service apache2 restart
-   apt-cache search php5-
-   apt-cache show php5-cli
-   apt-get install php5-cli
+	sudo su -
+	apt-get update
+	apt-get install apache2
+	apt-get install mysql-server php5-mysql
+	mysql_install_db
+	mysql_secure_installation
+	apt-get install php5 libapache2-mod-php5 php5-mcrypt
+	nano /etc/apache2/mods-enabled/dir.conf
+	service apache2 restart
+	apt-cache search php5-
+	apt-cache show php5-cli
+	apt-get install php5-cli
 
 apache : /etc/apache2
 
